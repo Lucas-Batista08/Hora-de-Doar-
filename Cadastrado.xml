@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4A8A8"
+    tools:context=".Cadastrado">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hora de Doar"
+        android:background="#DF0404"
+        android:textSize="35dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="1dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/icone"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:backgroundTint= "#E3402A"
+        android:text="Continuar"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="500dp"/>
+
+</LinearLayout>
